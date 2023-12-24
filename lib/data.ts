@@ -4,7 +4,7 @@ import lotteryImg from "@/public/lottery2.png";
 
 export const links = [
   {
-    name: "Stavros Karadimitriou",
+    name: "Home",
     hash: "#"
   },
   {
