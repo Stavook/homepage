@@ -6,7 +6,7 @@ import SectionHeading from '@/components/section-heading'
 
 
 export default function About() {
-  const { ref } = useSectionInView('About', 1);
+  const { ref } = useSectionInView('About',1);
 
   return (
     <motion.section 
@@ -18,12 +18,14 @@ export default function About() {
     id="about"
     
     >
-        <SectionHeading> About me </SectionHeading>
-        <p>
-        Hey there! I'm Stavros, currently residing in Thessaloniki, Greece. My passion lies in the world of Computer Science, and I'm currently immersed in the exciting journey of studying at the University of Macedonia (UoM)
-        </p>
+      <SectionHeading> About </SectionHeading>
+        <div className="mb-4">
+          <p>
+            Hey there! I'm Stavros, a digital explorer hailing from the sunny city of Thessaloniki, Greece. My journey into the fascinating realm of Computer Science is like embarking on a thrilling adventure. Currently navigating the challenges and wonders at the University of Macedonia (UoM), I'm on a quest to unravel the mysteries of code and design. Whether I'm crafting elegant lines of code, conjuring up innovative designs, or immersing myself in the ever-evolving tech landscape, I thrive on pushing boundaries and transforming ideas into captivating digital experiences.
+          </p>
+        </div>
        
-  </motion.section>    
+    </motion.section>    
 
   )
 }

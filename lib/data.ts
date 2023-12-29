@@ -1,6 +1,6 @@
 import React from "react";
-import lotteryImg from "@/public/lottery2.png";
-
+import lotteryImg from "@/public/lottery.png";
+import portfolioImg from "@/public/portfolio.png";
 
 export const links = [
   {
@@ -30,31 +30,25 @@ export const projectsData = [
   {
     title: "NFT Lottery",
     description:
-      ".",
+      "As part of a university project, I developed a Solidity smart contract and React frontend to simulate an NFT Lottery on the Ethereum network.",
     tags: ["React","Solidity"],
     imageUrl: lotteryImg,
   },
   {
     title: "Portfolio Website",
     description:
-      "Explore my personal portfolio website showcasing a collection of projects, skills, and experiences. Navigate through the various sections to learn more about my work in web development, technology, and beyond.",
+      "This portfolio website showcasing projects, skills, and experiences.",
     tags: ["React", "Next.js", "Tailwind CSS"],
-    imageUrl: lotteryImg,
+    imageUrl: portfolioImg,
   },
-  {
-    title: "NFT Lottery",
-    description:
-      ".",
-    tags: ["React","Solidity"],
-    imageUrl: lotteryImg,
-  },
+  
   
 ] as const;
 
 export const workData = [
   {
-    title: "Studying Computer Science at University of Macedonia ",
-    location: "Thessaloniki",
+    title: "Computer Science Student",
+    location: "University of Macedonia, Thessaloniki",
     date: "2019 - present",
   },
   {
