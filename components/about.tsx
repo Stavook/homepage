@@ -21,7 +21,7 @@ export default function About() {
       <SectionHeading> About </SectionHeading>
         <div className="mb-4">
           <p>
-            Hey there! I'm Stavros, a digital explorer hailing from the sunny city of Thessaloniki, Greece. My journey into the fascinating realm of Computer Science is like embarking on a thrilling adventure. Currently navigating the challenges and wonders at the University of Macedonia (UoM), I'm on a quest to unravel the mysteries of code and design. Whether I'm crafting elegant lines of code, conjuring up innovative designs, or immersing myself in the ever-evolving tech landscape, I thrive on pushing boundaries and transforming ideas into captivating digital experiences.
+            Hey there! I&apos;m Stavros, a digital explorer hailing from the sunny city of Thessaloniki, Greece. My journey into the fascinating realm of Computer Science is like embarking on a thrilling adventure. Currently navigating the challenges and wonders at the University of Macedonia (UoM), I&apos;m on a quest to unravel the mysteries of code and design. Whether I&apos;m crafting elegant lines of code, conjuring up innovative designs, or immersing myself in the ever-evolving tech landscape, I thrive on pushing boundaries and transforming ideas into captivating digital experiences.
           </p>
         </div>
        
